@@ -1,10 +1,10 @@
-# 👶 NeoCare Pro v2.0 - Sistema No Invasivo de Detección de Dolor y Signos Vitales Neonatales
+# NeoCare Pro v2.0 - Sistema No Invasivo de Detección de Dolor y Signos Vitales Neonatales
 
 **NeoCare Pro** es una plataforma médica de vanguardia basada en Visión por Computadora e Inteligencia Artificial para el monitoreo continuo, en tiempo real y sin contacto del dolor, estrés y signos vitales (Frecuencia Cardíaca, Variabilidad Cardíaca y Respiración) en pacientes neonatales y pediátricos.
 
 ---
 
-## 🌟 Fundamentación Clínica y Algorítmica
+## Fundamentación Clínica y Algorítmica
 
 NeoCare implementa las escalas clínicas validadas de neonatología:
 1. **NFCS (Neonatal Facial Coding System)**:
@@ -28,7 +28,7 @@ NeoCare implementa las escalas clínicas validadas de neonatología:
 
 ---
 
-## 🖥️ Interfaz de Monitor de UCI Neonatal (HUD)
+## Interfaz de Monitor de UCI Neonatal (HUD)
 
 El sistema superpone un panel de telemetría médica en tiempo real:
 - **Osciloscopio PPG**: Visualización en vivo de la onda de pulso de volumen sanguíneo (BVP).
@@ -38,7 +38,7 @@ El sistema superpone un panel de telemetría médica en tiempo real:
 
 ---
 
-## ⌨️ Controles por Teclado en Vivo
+## Controles por Teclado en Vivo
 
 | Tecla | Acción |
 |---|---|
@@ -52,7 +52,7 @@ El sistema superpone un panel de telemetría médica en tiempo real:
 
 ---
 
-## 📊 Reportes Clínicos y Auditoría
+## Reportes Clínicos y Auditoría
 
 Al concluir cada sesión, NeoCare genera automáticamente en `neocare_records/`:
 1. **Reporte Gráfico en Alta Resolución (`.png` y `.pdf`)**:
@@ -69,7 +69,7 @@ Al concluir cada sesión, NeoCare genera automáticamente en `neocare_records/`:
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### 1. Requisitos previos
 Instalar dependencias:
@@ -102,7 +102,7 @@ python main.py --output-dir reportes_paciente_01
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 neocare/
